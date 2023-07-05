@@ -1,15 +1,10 @@
-/* *, *::before, *::after { */
-    /* box-sizing: border-box; */
-  /* } */
 
-/* nav nav nav nav */
-
-body {
+/* body {
     width: 1920px;
     height: 1080px;
     background: #FFF;
     margin: 0px;
-}
+} */
 
 .rec1 {
     width: 1920px;
@@ -182,6 +177,7 @@ body {
 }
 
 /* menu pos */
+
 
 footer {
     background: #524C43;
@@ -363,3 +359,103 @@ footer {
     bottom: 170px;
 
 }
+
+
+.button1 {
+  width: 40px;
+  height: 30px;
+  flex-shrink: 0;
+  background: #FFF;
+  top: 209px;
+    bottom: 841px;
+    position: absolute;
+    left: 1240px;
+    right: 631px;
+}
+
+.button1a {
+  width: 40px;
+  height: 30px;
+  flex-shrink: 0;
+  background: #FFF;
+  top: 209px;
+    bottom: 841px;
+    position: absolute;
+    left: 1140px;
+    right: 640px;
+}
+
+.input1 {
+  width: 30px;
+  height: 20px;
+  flex-shrink: 0;
+  background: #FFF;
+  top: 209px;
+    bottom: 841px;
+    position: absolute;
+    left: 1190px;
+    right: 700px;
+}
+
+.input2 {
+  width: 30px;
+  height: 20px;
+  flex-shrink: 0;
+  background: #FFF;
+  top: 339px;
+  bottom: 711px;
+    position: absolute;
+    left: 1190px;
+    right: 700px;
+}
+
+.button2, .button3, .button4, .button5, .button6 {
+  width: 40px;
+  height: 30px;
+  flex-shrink: 0;
+  background: #FFF;
+  position: absolute;
+  left: 1240px;
+  right: 631px;
+}
+
+.button2a, .button3a, .button4a, .button5a, .button6a {
+  width: 40px;
+  height: 30px;
+  flex-shrink: 0;
+  background: #FFF;
+    position: absolute;
+    left: 1140px;
+    right: 640px;
+}
+
+.button2, .button2a {
+  top: 339px;
+  bottom: 711px;
+}
+
+
+.button3, .button3a {
+  top: 463px;
+  bottom: 587px;
+}
+
+
+.button4, .button4a {
+  top: 599px;
+  bottom: 451px;
+}
+
+
+.button5, .button5a {
+  top: 729px;
+  bottom: 321px;
+}
+
+
+.button6, .button6 {
+  top: 863px;
+  bottom: 187px;
+}
+
+
