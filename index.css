@@ -1,6 +1,4 @@
-/* *, *::before, *::after { */
-    /* box-sizing: border-box;
-  } */
+
 
 /* nav nav nav nav */
 
@@ -24,17 +22,7 @@ body {
     
 }
 
-.cart {
-    width: 54px;
-    height: 31px;
-    flex-shrink: 0;
-    position: absolute;
-    top: 30px;
-    left: 1785px;
-    right: 81px;
-    bottom: 1019px;
 
-}
 
 /* .rec2 {
     width: 709px;
@@ -141,7 +129,7 @@ body {
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #ff0000;
+  background: #ffffff;
 }
 
 .menuToggle input:checked ~ span:nth-last-child(3)
@@ -373,5 +361,28 @@ bottom: 54px;
     right: 919px;
     bottom: 170px;
     left: 635px;
+
+}
+
+
+
+.pf {
+  color: #FFF;
+text-align: right;
+font-family: monospace;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 106.385%;
+display: flex;
+width: 308px;
+height: 38px;
+flex-direction: column;
+flex-shrink: 0;
+position: absolute;
+top: 8px;
+right: 787px;
+bottom: 0px;
+left: 825px;
 
 }
